@@ -1,0 +1,28 @@
+plugins {
+	id 'java'
+	id 'application'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
+
+application {
+    mainClassName = 'Main'
+}
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+}
+
+dependencies {
+
+}
+
+jar {
+	baseName = 'xml-validator'
+	version = '0.0.0'
+}
