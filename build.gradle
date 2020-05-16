@@ -5,12 +5,12 @@ plugins {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'Main'
+        attributes 'Main-Class': 'axxle.devtools.XmlValidatorApp'
     }
 }
 
 application {
-    mainClassName = 'Main'
+    mainClassName = 'axxle.devtools.XmlValidatorApp'
 }
 
 repositories {
